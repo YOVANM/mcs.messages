@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) {
         DataBaseConnection conecction = new DataBaseConnection();
         conecction.getConnection();
-        System.out.println("Hello world!");
+
     }
 }
