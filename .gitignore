@@ -1,7 +1,44 @@
-./logs
-.log
-.jar
-.war
-.ear
-/target
-/.idea
+# IntelliJ IDEA
+.idea/
+
+# Maven
+target/
+*.iml
+*.iws
+*.iws
+*.ipr
+*.iws
+.idea
+mvnw
+.mvn
+
+# Compiled bytecode
+*.class
+
+# Logs
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*~
+*.tmp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+*.idea/shelf
+*.idea/dataSources
+
+# Maven Wrapper
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
