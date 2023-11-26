@@ -1,0 +1,7 @@
+./logs
+.log
+.jar
+.war
+.ear
+/target
+/.idea
