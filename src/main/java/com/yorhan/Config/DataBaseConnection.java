@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class DataBaseConnection {
 
-    public Connection getConnection(){
+    public static Connection getConnection(){
         Connection res = null;
         try {
             res = DriverManager.getConnection("jdbc:mysql://localhost:3306/fog","yovan","rsN543R$");
